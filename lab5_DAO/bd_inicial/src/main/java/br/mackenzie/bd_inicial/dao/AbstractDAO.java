@@ -1,4 +1,4 @@
-package mack.lp2.agendamento.dao;
+package br.mackenzie.bd_inicial.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -36,13 +36,14 @@ public abstract class AbstractDAO {
         }
     }
 
-    public abstract Object create(Object obj)throws SQLException;
+    public abstract Object create(Object obj) throws SQLException;
 
-    public abstract Object read(int id)throws SQLException;
-    public abstract List<Object>readAll()throws SQLException;
+    public abstract Object read(int id) throws SQLException;
+    
+    public abstract List<Object> readAll() throws SQLException;
 
-    public abstract Object update(Object obj)throws SQLException;
+    public abstract Object update(Object obj) throws SQLException;
 
-    public abstract void delete(int id)throws SQLException;
+    public abstract void delete(int id) throws SQLException;
 
 }

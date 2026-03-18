@@ -1,4 +1,4 @@
-package mack.lp2.agendamento.model;
+package br.mackenzie.bd_inicial.model;
 
 public class Livro {
     private int id;
